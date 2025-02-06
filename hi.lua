@@ -1141,7 +1141,7 @@ Library.Sections.__index = Library.Sections;
 			--
 			local ScreenGui = Instance.new('ScreenGui', game.CoreGui)
 			local Outline = Instance.new('Frame', ScreenGui)
-      local UIGradient = Instance.new("UIGradient", ScreenGui)
+      local UIGradient = Instance.new("UIGradient", Frame)
       UIGradient.Color = ColorSequence.new{
       
       ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
